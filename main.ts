@@ -11,3 +11,9 @@ basic.showIcon(IconNames.Happy)
 let neopixelStrip: neopixel.Strip = null
 
 neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
+
+// zero all the colors
+neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
+neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
+neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
+neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
