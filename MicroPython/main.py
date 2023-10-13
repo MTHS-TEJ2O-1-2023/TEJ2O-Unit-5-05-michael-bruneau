@@ -6,5 +6,5 @@ This module is a Micro:bit MicroPython program
 
 from microbit import *
 
-while True
-    
+display.clear()
+display.show(Image.HAPPY)
