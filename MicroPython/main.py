@@ -48,4 +48,5 @@ while True:
         np.show()
         sleep(1000)
         np[0] = (0, 0, 0)
+        np.show()
         display.show(Image.HAPPY)
